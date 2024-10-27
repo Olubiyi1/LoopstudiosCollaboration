@@ -10,7 +10,9 @@ const Head = ()=>{
             <br />
     
                 <Nav>
-                    <img id="Logo" src={Logo} alt="Logo"/>
+                    <Links>
+                        <Link to={"/"}><img id="Logo" src={Logo} alt="Logo"/></Link>
+                    </Links>
                         <Links>
                             <Link to={"/"}>
                                 <p>About</p>
