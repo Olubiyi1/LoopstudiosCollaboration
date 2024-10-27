@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Homepage from "./Pages/Homepage";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Careers from "./Component/Careers";
 import AboutPage from "./Component/About";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
@@ -23,6 +24,8 @@ const App = () => {
             </Main>
         </BrowserRouter>
 =======
+=======
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
 import AboutPage from "./Component/About";
 
 const App = () => {
@@ -31,6 +34,9 @@ const App = () => {
             <Homepage/>
             <AboutPage/>
         </Main>
+<<<<<<< HEAD
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
+=======
 >>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
      );
 }

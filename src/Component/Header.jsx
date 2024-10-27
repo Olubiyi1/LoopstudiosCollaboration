@@ -2,7 +2,11 @@ import styled from "styled-components"
 import HeroImg from "../assets/Images/image-hero.jpg"
 import Logo from "../assets/Images/logo.svg"
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link } from "react-router-dom"
+=======
+import { BrowserRouter,Routes,Route } from "react-router-dom"
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
 =======
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 >>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
@@ -16,6 +20,7 @@ const Head = ()=>{
                 <Nav>
                     <img id="Logo" src={Logo} alt="Logo"/>
                         <Links>
+<<<<<<< HEAD
 <<<<<<< HEAD
                             <Link to={"/"}>
                                 <p>About</p>
@@ -33,11 +38,16 @@ const Head = ()=>{
                                 <p>Support</p>
                             </Link>
 =======
+=======
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
                             <p>About</p>
                             <p>Careers</p>
                             <p>Events</p>
                             <p>Products</p>
                             <p>Support</p>
+<<<<<<< HEAD
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
+=======
 >>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
                         </Links>
 
