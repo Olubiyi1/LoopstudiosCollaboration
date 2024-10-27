@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Homepage from "./Pages/Homepage";
+<<<<<<< HEAD
 import Careers from "./Component/Careers";
 import AboutPage from "./Component/About";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
@@ -21,6 +22,16 @@ const App = () => {
                 </Routes>
             </Main>
         </BrowserRouter>
+=======
+import AboutPage from "./Component/About";
+
+const App = () => {
+    return ( 
+        <Main>
+            <Homepage/>
+            <AboutPage/>
+        </Main>
+>>>>>>> a47911f413e8b4ae8a14687a1ed2b39f737baf0a
      );
 }
  
